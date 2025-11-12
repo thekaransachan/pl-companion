@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { TableEntry } from '../App';
+import { TableEntry } from './App';
 
 interface LeagueTableSnippetProps {
   table: TableEntry[];

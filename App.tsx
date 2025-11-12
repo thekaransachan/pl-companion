@@ -1,10 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
-import MatchweekFixtures from './components/MatchweekFixtures';
-import LeagueTableSnippet from './components/LeagueTableSnippet';
-import Sidebar from './components/Sidebar';
-import FplStats from './components/FplStats';
+import Header from './Header';
+import MatchweekFixtures from './MatchweekFixtures';
+import LeagueTableSnippet from './LeagueTableSnippet';
+import Sidebar from './Sidebar';
+import FplStats from './FplStats';
 
 // --- Type Definitions ---
 export interface Team {

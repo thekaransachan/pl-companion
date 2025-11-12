@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Match } from '../App';
+import { Match } from './App';
 
 interface MatchweekFixturesProps {
   matches: Match[];
