@@ -10,7 +10,7 @@ interface MatchweekFixturesProps {
 
 const MatchweekFixtures: React.FC<MatchweekFixturesProps> = ({ matches, matchweek, loading }) => {
   return (
-    <section className="flex flex-col space-y-6">
+    <section className="flex flex-col space-y-3">
       <h2 className="text-2xl font-semibold text-center text-white">
         {loading ? 'Fixtures' : `Matchweek ${matchweek}`}
       </h2>

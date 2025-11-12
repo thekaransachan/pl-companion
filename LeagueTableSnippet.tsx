@@ -11,8 +11,8 @@ const LeagueTableSnippet: React.FC<LeagueTableSnippetProps> = ({ table, loading 
   const top10 = table.slice(0, 10);
 
   return (
-    <section className="flex flex-col space-y-6">
-      <div className="flex justify-between items-center px-4 font-semibold text-white/90">
+    <section className="flex flex-col space-y-3">
+      <div className="flex justify-between items-center px-4 font-semibold text-white/90 text-xs">
         <span className="flex-grow">Team</span>
         <span className="w-12 text-center">Points</span>
         <span className="w-8 text-center">W</span>

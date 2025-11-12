@@ -19,6 +19,11 @@ export default defineConfig(({ mode }) => {
             changeOrigin: true,
             rewrite: (path) => path.replace(/^\/api\/premier-league/, '/api'),
           },
+          '/api/pl-config': {
+            target: 'https://resources.premierleague.com',
+            changeOrigin: true,
+            rewrite: (path) => path.replace(/^\/api\/pl-config/, '/premierleague25/config'),
+          },
         },
       },
       plugins: [react()],
