@@ -1,0 +1,5 @@
+{
+  "name": "PL Companion",
+  "description": "A web app to display Premier League and Fantasy Premier League related information, including matchweek fixtures and a league table overview, with a modern and vibrant UI.",
+  "requestFramePermissions": []
+}
